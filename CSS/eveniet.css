@@ -1,0 +1,81 @@
+.Eveniet-item {
+    display: flex;
+    height: 250px;
+
+}
+
+.Eveniet-item-video {
+    background: url(../images/61vlH-a63aS._AC_SX679_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 11px -67px;
+    flex: 1;
+    margin-right: 2%;
+    position: relative;
+}
+
+
+.Eveniet-item-video a img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 30%;
+    left: 45%;
+
+
+}
+
+
+.Eveniet-item-info {
+    background-color: #f7f3ef;
+    flex: 2;
+}
+
+.Eveniet-item-info .Saepe {
+    padding: 10px 25px;
+    position: relative;
+}
+
+.Eveniet-item-info h4 {
+    color: var(--main-color);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.Eveniet-item-info span {
+    color: var(--main-color);
+    font-size: 15px;
+}
+
+.Eveniet-item-info h5 {
+    position: absolute;
+    top: 30px;
+    left: 19%;
+
+}
+
+.Eveniet-item-info .pragraph {
+
+    padding: 1px 25px;
+    line-height: 1.5;
+    color: gray;
+    font-size: 15px;
+}
+
+
+
+
+/* Eveniet-photo */
+
+
+.Eveniet-photo{
+    display: flex;
+    margin: 50px 0px;
+}
+
+.Eveniet-photo img{
+
+    flex: 1;
+    margin-right: 10px;
+    height: 123px;
+}

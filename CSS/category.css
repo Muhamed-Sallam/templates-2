@@ -1,0 +1,349 @@
+.head {
+    text-align: center;
+}
+
+.head h2 {
+    text-transform: capitalize;
+    position: relative;
+}
+
+.head h2::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: var(--main-color);
+    margin: 40px 0 0 -99px;
+    transition: 0.8s;
+}
+
+.head:hover h2::after {
+    transform-origin: center;
+
+    transform: scaleX(3);
+}
+
+.category-items {
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-column-gap: 2%;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.category-item {
+
+    position: relative;
+
+}
+
+.category-item img {
+    width: 98%;
+    transition: 0.8s;
+
+}
+
+.category-item img:hover {
+    box-shadow: 1px 1px 10px 3px gray;
+    transform: scale(1.02, 1);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.category-item figcaption {
+    color: gray;
+    font-weight: normal;
+    padding: 5px 0 0 3px;
+}
+
+.category-item p {
+    padding: 5px 0 0 3px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.category-item .icons {
+    display: block;
+    background-color: var(--main-color);
+    width: 30px;
+    height: 28px;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.category-item:hover.category-item .icons {
+
+    visibility: visible;
+    opacity: 1;
+
+}
+
+
+/* section-discount */
+
+
+.discount {
+    display: flex;
+    height: 350px;
+}
+
+.discount-desc {
+    flex: 1.5;
+    background-color: #f7f3ef;
+    padding: 20px;
+    height: 100%;
+}
+
+.discount-desc .top {
+    position: relative;
+    padding: 10px 60px 30px 60px;
+
+}
+
+
+.discount-desc .icons {
+    position: absolute;
+    color: var(--main-color);
+    top: 7px;
+    left: 0px;
+}
+
+.discount-desc .top span {
+    position: absolute;
+    margin-top: 3px;
+    font-size: 13px;
+    color: #888888;
+}
+
+.discount-desc .top+p {
+
+    line-height: 1.7;
+    color: #888888;
+    font-size: 15px;
+
+}
+
+/* class="bolletes" */
+
+.bolletes span {
+
+    width: 40px;
+    height: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 8px;
+    /* transition: 0.2s; */
+    background-color: #888888;
+
+}
+
+.bolletes .active {
+    background-color: var(--main-color);
+}
+
+.bolletes span:hover {
+    background-color: var(--main-color);
+}
+
+.bolletes {
+    text-align: right;
+
+}
+
+
+
+
+/* .discount-item */
+
+
+
+.discount-item {
+    flex: 1;
+    margin-left: 3%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.discount-item-info {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.discount-item-info:nth-child(1) img {
+
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+
+
+}
+
+
+.discount-item-info:nth-child(1) img:hover {
+    transform-origin: center;
+    transform: scale(1.03, 1.03);
+}
+
+.discount-item h4 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: var(--main-color);
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.discount-item h3 {
+    position: absolute;
+    top: 35px;
+    left: 15px;
+}
+
+
+
+
+/*sprits*/
+
+
+
+.sprites {
+
+    display: flex;
+
+}
+
+.sprites-item {
+    text-align: center;
+    flex: 1;
+    border-right: 1.5px solid var(--main-color);
+
+
+}
+
+
+
+.sprites-item:last-child {
+    border: 0;
+}
+
+.icon {
+    background-image: url(../images/service-icon.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+
+}
+
+.sprites-item1 .icon {
+    background-position: center 1px;
+}
+
+.sprites-item1 .icon:hover {
+    background-position: center -88px;
+}
+
+
+.sprites-item2 .icon {
+
+
+    background-position: center -181px;
+}
+
+.sprites-item2 .icon:hover {
+
+    background-position: center -271px;
+}
+
+
+.sprites-item3 .icon {
+
+
+    background-position: center -368px;
+}
+
+.sprites-item3 .icon:hover {
+
+
+
+    background-position: center -460px;
+}
+
+
+.sprites-item4 .icon {
+
+
+    background-position: center -553px;
+}
+
+.sprites-item4 .icon:hover {
+
+    background-position: center -639px;
+}
+
+.sprites-item5 .icon {
+
+    background-position: center -735px;
+
+}
+
+.sprites-item5 .icon:hover {
+
+    background-position: center -831px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sprites-item h3 {
+
+    font-size: 13px;
+}
+
+.sprites-item span {
+    font-size: 13px;
+    color: gray;
+}

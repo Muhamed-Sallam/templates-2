@@ -1,0 +1,145 @@
+footer {
+    background-color: black;
+    color: white;
+    height: 350px;
+
+}
+
+.foot {
+
+    display: flex;
+    padding: 70px 0px;
+}
+
+.foot .roker {
+    flex: 2;
+}
+
+.roker img {
+    width: 120px;
+}
+
+.roker p {
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+    color: #888888;
+    padding: 25px 0px 15px 0px;
+    margin-bottom: 28px;
+}
+
+
+
+
+
+.foot .information {
+    flex: 1;
+
+}
+
+.foot h4 {
+
+    font-size: 15px;
+}
+
+.foot .information ul,
+.my-account ul {
+    padding-top: 10px;
+    text-transform: capitalize;
+    color: #888888;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+
+}
+
+.foot .information ul li,
+.my-account ul li {
+    padding: 3px 0px;
+    transform: scale(1, 1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.foot .information ul li:hover,
+.my-account ul li:hover {
+
+    color: white;
+    padding-left: 5px;
+    transform: scale(1.2, 1.1);
+    transform-origin: left;
+}
+
+
+
+.foot .my-account {
+    flex: 1;
+
+}
+
+.foot .Subscript {
+    flex: 1;
+
+}
+
+.foot .Subscribe .input {
+
+    margin: 30px 0px;
+}
+
+.foot .Subscribe .input input {
+
+    background-color: black;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+
+}
+
+
+.foot #in {
+    width: 200px;
+    height: 25px;
+    border: none;
+}
+
+::placeholder {
+    color: gray;
+    font-size: 12px;
+}
+
+
+[placeholder="Enter Your Email Address"] {
+    color: white;
+}
+
+.foot .Subscribe .fa {
+
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.foot .Subscribe .fa:hover {
+
+    color: var(--main-color);
+    transform: scale(1.2, 1.2);
+
+}
+
+
+
+
+
+
+
+
+
+.foot .social ul li {
+    display: inline-block;
+    margin: 8px;
+    cursor: pointer;
+    color: #888888;
+}
